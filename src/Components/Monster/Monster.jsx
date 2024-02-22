@@ -1,13 +1,16 @@
 import './Monster.css';
 
 
-const Monster = ({name, eyes}) => {
+const Monster = ({name, eyes, image}) => {
   return (
-  <>
-  <div>Monster
-  <p>Name: {name}, Eyes: {eyes}</p>
-  </div>
-  </>)
-};
+    <>
+      <div className='MonsterContainer'>
+        <p>Name: {name}, Eyes: {eyes}</p>
+        <img className='MonsterImage' src={image} alt={`${name} monster`} />
+      </div>
+    </>
+  );
+  
+}
 
-export default Monster
+export default Monster;

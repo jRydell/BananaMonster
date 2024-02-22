@@ -9,7 +9,7 @@ const MonsterBox = () => {
    <>
    <h1>Monster Box</h1>
    {data.map((monster)=>{
-      return <Monster name={monster.name} eyes={monster.eyes} />
+      return <Monster name={monster.name} eyes={monster.eyes} image={monster.image} />
    })}  
    </>
   );

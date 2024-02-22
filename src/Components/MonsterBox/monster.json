@@ -3,18 +3,33 @@
         {
             "name": "Balrog",
             "eyes": 2,
-            "imge_url": ""
+            "image": "https://media.istockphoto.com/id/610018828/sv/foto/zombie.jpg?s=2048x2048&w=is&k=20&c=GYDW5dlOl5JGcQ5_8Hb7pi83XgmOlZowiKxEpcREX5o="
         
         },
         {
             "name": "Hydra",
             "eyes": 18,
-            "imge_url": ""
+            "image": "https://media.istockphoto.com/id/610018828/sv/foto/zombie.jpg?s=2048x2048&w=is&k=20&c=GYDW5dlOl5JGcQ5_8Hb7pi83XgmOlZowiKxEpcREX5o="
         },
         {
             "name": "Headcrab",
             "eyes": 0,
-            "imge_url": ""
+            "image": "https://media.istockphoto.com/id/610018828/sv/foto/zombie.jpg?s=2048x2048&w=is&k=20&c=GYDW5dlOl5JGcQ5_8Hb7pi83XgmOlZowiKxEpcREX5o="
+        },
+        {
+            "name": "Headcrab",
+            "eyes": 0,
+            "image": "https://media.istockphoto.com/id/610018828/sv/foto/zombie.jpg?s=2048x2048&w=is&k=20&c=GYDW5dlOl5JGcQ5_8Hb7pi83XgmOlZowiKxEpcREX5o="
+        },
+        {
+            "name": "Headcrab",
+            "eyes": 0,
+            "image": "https://media.istockphoto.com/id/610018828/sv/foto/zombie.jpg?s=2048x2048&w=is&k=20&c=GYDW5dlOl5JGcQ5_8Hb7pi83XgmOlZowiKxEpcREX5o="
+        },
+        {
+            "name": "Headcrab",
+            "eyes": 0,
+            "image": "https://media.istockphoto.com/id/610018828/sv/foto/zombie.jpg?s=2048x2048&w=is&k=20&c=GYDW5dlOl5JGcQ5_8Hb7pi83XgmOlZowiKxEpcREX5o="
         }   
    
         
