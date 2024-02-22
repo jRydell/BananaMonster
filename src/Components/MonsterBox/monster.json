@@ -2,17 +2,20 @@
     "data": [
         {
             "name": "Balrog",
-            "eyes": 2
+            "eyes": 2,
+            "imge_url": ""
         
         },
         {
             "name": "Hydra",
-            "eyes": 18
+            "eyes": 18,
+            "imge_url": ""
         },
         {
             "name": "Headcrab",
-            "eyes": 0
-        }
+            "eyes": 0,
+            "imge_url": ""
+        }   
    
         
     ]
