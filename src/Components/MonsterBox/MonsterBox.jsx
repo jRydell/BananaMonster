@@ -7,10 +7,12 @@ const MonsterBox = () => {
 
   return (
    <>
-   <h1>Monster Box</h1>
+   <div className='MonsterBox'>
+   <h1>Leaderboard</h1>
    {data.map((monster)=>{
-      return <Monster name={monster.name} eyes={monster.eyes} image={monster.image} />
-   })}  
+      return <Monster name={monster.name} kills={monster.kills} image={monster.image} />
+   })}
+   </div>  
    </>
   );
 }

@@ -1,11 +1,22 @@
-/* .MonsterContainer {
-border: 3px solid hotpink;
+.MonsterCard {
+display: flex;
+justify-content: center;
+flex-direction: column;
+gap: 0.5rem;
+padding: 1rem;
+border: 3px solid  #f7e9a166;
+margin: 1rem;
+background-color: rgba(128, 128, 128, 0.224);
+border-radius: 1rem;
     
-} */
+}
 .MonsterImage {
+    
     max-width: 150px;
     max-height: 250px;
     border-radius: 15rem;
-    
+    align-items: center;
+    border: 2px solid rgba(87, 88, 63, 0.47);
+    opacity: 85%;
 
 }
