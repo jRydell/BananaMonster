@@ -1,11 +1,13 @@
 import './Monster.css';
 
-const Monster = () => {
+
+const Monster = ({name, eyes}) => {
   return (
-    <div>
-      
-    </div>
-  )
-}
+  <>
+  <div>Monster
+  <p>Name: {name}, Eyes: {eyes}</p>
+  </div>
+  </>)
+};
 
 export default Monster

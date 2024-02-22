@@ -1,7 +1,14 @@
 import "./App.css";
+import MonsterBox from "./Components/MonsterBox/MonsterBox";
 
 const App = () => {
-    return <h1>🍌 Hello World! 🛸</h1>;
+    return (
+        <>
+        <main className='Main'>
+        <MonsterBox />
+        </main>
+        </>
+    )
 }
 
 export default App;
