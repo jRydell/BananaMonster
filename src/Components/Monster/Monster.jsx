@@ -4,8 +4,13 @@ import './Monster.css';
 const Monster = ({ name, image }) => {
   
   const [kills, setKills] = useState(0);
-  const handleClick = () => {
+
+  const moreKills = () => {
     setKills(kills + 1);
+  };
+
+  const lessKills = () => {
+    setKills(kills - 1);
   };
 
   return (
@@ -13,7 +18,8 @@ const Monster = ({ name, image }) => {
       <img className='MonsterImage' src={image} alt={`${name} monster`} />
       <p>Name: {name}</p>
       <p>Kills: {kills}</p>
-      <button onClick={handleClick}>More Kills!</button>
+      <button onClick={moreKills}>More Kills!</button>
+      <button onClick={lessKills}>Less Kills!</button>
     </div>
   );
 };
