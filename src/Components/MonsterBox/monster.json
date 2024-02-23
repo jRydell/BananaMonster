@@ -2,33 +2,28 @@
     "data": [
         {
             "name": "Balrog",
-            "kills": 23,
-            "image": "https://media.istockphoto.com/id/610018828/sv/foto/zombie.jpg?s=2048x2048&w=is&k=20&c=GYDW5dlOl5JGcQ5_8Hb7pi83XgmOlZowiKxEpcREX5o="
+            "image": "https://media.istockphoto.com/id/610018828/sv/foto/zombie.jpg?s=2048x2048&w=is&k=20&c=GYDW5dlOl5JGcQ5_8Hb7pi83XgmOlZowiKxEpcREX5o=",
+            "color": "red"
         
         },
         {
             "name": "Hydra",
-            "kills": 18,
             "image": "https://media.istockphoto.com/id/157648907/sv/foto/creepy-zombie-with-a-knife.jpg?s=2048x2048&w=is&k=20&c=2wWT7-jyNxGu179gTitE3osLgvo4QwBEY2DU__omzN8="
         },
         {
             "name": "Reshala",
-            "kills": 16,
             "image": "https://media.istockphoto.com/id/611891774/sv/foto/zombie.jpg?s=2048x2048&w=is&k=20&c=2RRNUajHhJfDtlcXK3O_H0wq2wKvAJaPETXQ7hSAMvU="
         },
         {
             "name": "Terrifier",
-            "kills": 12,
             "image": "https://media.istockphoto.com/id/487720210/sv/foto/zombie.jpg?s=2048x2048&w=is&k=20&c=p3frF61mHrIDB-4gUTQQtiuId1rA2Bg4Q_w1FPLRpg0="
         },
         {
             "name": "RottingSoul",
-            "kills": 10,
             "image": "https://media.istockphoto.com/id/108351282/sv/foto/zombie.jpg?s=2048x2048&w=is&k=20&c=rDQUDibHbncGUN0tSSmAgYyqptATqJF13h22RPcPDoA="
         },
         {
             "name": "ScaryDude",
-            "kills": 7,
             "image": "https://media.istockphoto.com/id/466854643/sv/foto/nurse-freak.jpg?s=2048x2048&w=is&k=20&c=Cdt1T_oK-4Q7C06IQVVcpA0zQpXuX_kLIrSK9Z0J91E="
         }   
    
