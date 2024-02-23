@@ -1,10 +1,7 @@
-import React, { useState } from "react";
+import React, { useState } from 'react';
 import './Monster.css';
 
-const Monster = ({ name, image }) => {
-  
-  const [kills, setKills] = useState(0);
-
+const Monster = ({ name, image, kills, setKills }) => {
   const moreKills = () => {
     setKills(kills + 1);
   };
