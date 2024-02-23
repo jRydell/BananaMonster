@@ -9,6 +9,10 @@ const Monster = ({ name, image, kills, setKills }) => {
   const lessKills = () => {
     setKills(kills - 1);
   };
+ 
+  const ultraKill = () => {
+    setKills(kills + 5);
+  };
 
   return (
     <div className='MonsterCard'>
@@ -17,6 +21,7 @@ const Monster = ({ name, image, kills, setKills }) => {
       <p>Kills: {kills}</p>
       <button onClick={moreKills}>More Kills!</button>
       <button onClick={lessKills}>Less Kills!</button>
+      <button onClick={ultraKill}>Ultra Kill!</button>
     </div>
   );
 };
