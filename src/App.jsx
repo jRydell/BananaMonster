@@ -1,14 +1,15 @@
+// App.js
+import React from "react"; // Import React
 import "./App.css";
-import MonsterBox from "./Components/MonsterBox/MonsterBox";
+import AnimalList from "./Components/AnimalList/AnimalList";
 
 const App = () => {
-    return (
-        <>
-        <main className='Main'>
-        <MonsterBox />
-        </main>
-        </>
-    )
-}
+  return (
+    <>
+      <AnimalList animals={["dog", "horse", "cow", "cat", "fetta"]} />
+      <main className="Main">{/* <MonsterBox /> */}</main>
+    </>
+  );
+};
 
 export default App;
